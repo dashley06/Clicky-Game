@@ -1,17 +1,13 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 
-
-function header({ children }) {
-  return (
-    <div className="jumbotron jumbotron-fluid">
-      <div className="container">
-    <h1 className="display-4">Clicky Game</h1>
-    <p className="lead">Test your memory skills!</p>
-  </div>
-      {children}
+const Header = props => {
+    return(
+    <div className="header container">
+        <div id="title">Click a TV Icon!</div>
+        <div id="directions">Don't Click the Same Person Twice!</div>
+        <div id="scoreDiv">Score: {props.score}</div>
     </div>
-  );
-}
+    )};
 
-export default header;
+export default Header;

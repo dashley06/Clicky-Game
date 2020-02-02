@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "AuntViv",
+        "image": "https://www.essence.com/wp-content/uploads/2011/12/images/2011/12/29/janet-hubert.jpg?width=840&height=1120",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Gina",
+        "image":"https://vignette.wikia.nocookie.net/martin/images/e/eb/Gina.jpg/revision/latest/scale-to-width-down/340?cb=20121128210144",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Latifah",
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVhZDQwNTUtMTljYS00OTM4LTg5MzMtY2FlMDA3OTNiOTU3XkEyXkFqcGdeQXVyNjAwODA4Mw@@._V1_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Martin",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71jos2ODTuL._RI_.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Moesha",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4ZwTqR308xA0P5rL92KVjwX9GlrgCRCbemX7c3GuSE_6q1AC&s",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Sinclair",
+        "image": "https://i.ytimg.com/vi/KuXI6JhVcus/hqdefault.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Sister",
+        "image": "https://cdn.mamamia.com.au/wp/wp-content/uploads/2019/06/21132046/Sister-Sister-WF.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "UnclePhil",
+        "image": "https://thesource.com/wp-content/uploads/2017/11/Uncle-Phil-Wouldve-Been-72-Years-Old-Today-RIP.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Urkel",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-steve-urkel-19a21607-6240-4447-b18a-ef6ed63ccca1.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "WillSmith",
+        "image": "https://www.newstatesman.com/sites/default/files/styles/cropped_article_image/public/blogs_2017/08/rehost_2f2016_2f9_2f13_2f1b5cb41f-6c9f-4862-ae3a-107fd32008ab_1_.jpg?itok=3V2At_67",
+        "clicked": false
+    }
+]
