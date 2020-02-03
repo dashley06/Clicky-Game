@@ -1,15 +1,11 @@
 import React from "react";
 import "./Card.css";
 
-const Card = props => {
-    return(
-        <div
-            style={{backgroundImage: `url(${props.src})`}}
-            alt={props.alt}
-            className="block"
-            onClick={() => props.handleClick(props.name)}>
-        </div>
-    )
-};
-
-export default Card;
+const Card = props => (
+    <div className="card img-container hover">
+        <img alt={props.name} src={props.image} id={props.id}
+          onClick={() => props.shuffleScoreCard(props.id)} className='shuffleScore'/>
+    </div>
+  );
+  
+  export default Card;

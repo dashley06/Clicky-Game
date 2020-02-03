@@ -8,7 +8,7 @@ class Layout extends Component {
     state = {
         person: TVCard,
         score: 0
-    }
+    };
 
     resetGame = () => {
         this.setState({
@@ -23,9 +23,9 @@ class Layout extends Component {
             score: this.state.score+1
         });
 
-        if (this.state.score === 11) {
+        if (this.state.score === 10) {
             this.resetGame();
-            alert("You won!");
+            alert("Winner! Good Job");
         }
     };
 
@@ -61,6 +61,7 @@ class Layout extends Component {
     render() {
         return(
             <div>
+              
                 <Header score={this.state.score}/>
                 <div className="gridWrapper">
                     <div className="grid">
