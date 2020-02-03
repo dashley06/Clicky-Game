@@ -22,14 +22,13 @@ class App extends Component {
     let clickedIds = this.state.clickedIds;
 
     if(clickedIds.includes(id)){
-      this.setState({ clickedIds: [], score: 0, status:  "Game Over! You lost. Click to play again!" });
+      this.setState({ clickedIds: [], score: 0, status:  "Game Over! You already selected that person. Click to play again!" });
       return;
     }else{
       clickedIds.push(id)
 
       if(clickedIds.length === 10){
-        this.setState({score: 10, status: "You Won! Great Job! Click to play again!", clickedIds: []});
-        console.log('You Win');
+        this.setState({score: 10, status: "Winner! Great Job! Click to play again!", clickedIds: []});
         return;
       }
 
