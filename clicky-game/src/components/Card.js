@@ -2,10 +2,10 @@ import React from "react";
 import "./Card.css";
 
 const Card = props => (
-    <div className="card container img-container">
-        <img alt={props.name} src={props.image} id={props.id}
-          onClick={() => props.shuffleScoreCard(props.id)} className='shuffleScore'/>
-    </div>
+        <div className="card img-container">
+            <img alt={props.name} src={props.image} id={props.id}
+            onClick={() => props.shuffleScoreCard(props.id)} />
+        </div>
   );
   
   export default Card;

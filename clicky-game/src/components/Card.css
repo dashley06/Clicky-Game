@@ -1,18 +1,19 @@
 .img-container img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
 };
 
-.img-container{
+.card .img-container{
     width: 30%;
 }
 
 .card {
     border-radius: 2px;
     height: 30%;
+    width: 30%;
     margin-top: 10px;
     position: relative;
+    display: flex;
     justify-content: flex-start;
-    width: 30%;
     overflow: hidden;
   }

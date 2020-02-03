@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-size: cover;
   background-image: url(../src/background-pic.jpg);
 }
 
